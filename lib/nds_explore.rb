@@ -10,6 +10,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
+  movie = directors_database[0][]
   index = 0
   while index < directors_database.length do
     column = 0
