@@ -13,7 +13,7 @@ def print_first_directors_movie_titles
   movie = directors_database[0][:movies]
   index = 0
   while index < movie.length do
-   pp "movie[index][:title]\n"
+   pp "#{movie[index][:title]}\n"
     index +=1
   end
 end
