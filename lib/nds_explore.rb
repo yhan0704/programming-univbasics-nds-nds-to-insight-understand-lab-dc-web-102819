@@ -11,5 +11,9 @@ end
 
 def print_first_directors_movie_titles
   movie = directors_database[0][:movies]
-  pp movie.length
+  index = 0
+  while index < movie.length do
+    movie[index][:title]
+    index +=1
+  end
 end
