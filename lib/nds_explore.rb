@@ -19,5 +19,4 @@ def print_first_directors_movie_titles
   end
   index += 1
 end
-puts afefawf
 end
