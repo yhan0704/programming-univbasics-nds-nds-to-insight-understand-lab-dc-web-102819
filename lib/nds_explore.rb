@@ -11,5 +11,5 @@ end
 
 def print_first_directors_movie_titles
   movie = directors_database[0][:movies]
-  pp movie[1][:title]
+  pp movie.length
 end
